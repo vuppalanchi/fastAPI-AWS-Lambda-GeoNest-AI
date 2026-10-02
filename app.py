@@ -10,7 +10,7 @@ handler = Mangum(app)
 
 @app.get("/")
 def read_root():
-   return {"Welcome to Upender Vuppalanchi's ": "World of FastAPI depolyment using Docker image, and AWS Lambda"}
+   return {"Welcome to Upender Vuppalanchi's ": "World of FastAPI depolyment using Docker image, and AWS Lambda. Next Gen Solutions"}
 
 @app.get("/{text}")
 def read_item(text: str):
